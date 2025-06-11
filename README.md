@@ -53,3 +53,44 @@ OCONG/
 │ └── sceneMenu.js
 └── index.html
 
+
+
+
+---
+
+## 🔄 Alur Interaksi
+
+1. **Load Assets** pada `preload()`.
+2. **Create Scene**:
+   - Tampilkan background dan title.
+   - Tambahkan tombol play yang muncul dengan animasi.
+   - Tambahkan panel skor dan ambil data `localStorage["highscore"]`.
+   - Tambahkan sprite animasi `mummy` yang bergerak bolak-balik.
+3. **Input Event**:
+   - Ketika tombol play diklik:
+     - Mainkan `snd_touch`.
+     - Transisi ke scene `scenePlay`.
+
+---
+
+## 🧠 Tips Pengembangan
+
+- Pastikan hanya **satu instance** dari `snd_ambience` diputar dengan memeriksa variabel global.
+- Gunakan `localStorage` untuk menyimpan dan mengambil skor.
+- Anda dapat menambahkan tombol pengaturan atau efek visual tambahan dengan konsep serupa.
+
+---
+
+## 📍 Dependencies
+
+- **Phaser 3**
+- **Assets lokal** (gambar, sprite, audio)
+
+---
+
+## 👤 Author
+
+- Nama: [Nama Anda]
+- Proyek: Game HTML5 - Phaser 3
+
+
