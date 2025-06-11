@@ -90,7 +90,7 @@ OCONG/
 
 ## 👤 Author
 
-- Nama: [Nama Anda]
+- Nama: [Febrian Bayu]
 - Proyek: Game HTML5 - Phaser 3
 
 
