@@ -21,10 +21,14 @@ Scene ini merupakan **halaman menu utama** dari game Phaser 3, berfungsi sebagai
 |----------|------------------|------------------------------------|
 | Gambar   | `bg_start`        | `![bg_start](https://github.com/user-attachments/assets/7d0f213b-10aa-47ba-9d10-29a776ae6a40)
 `       |
-| Gambar   | `btn_play`        | `assets/images/btn_play.png`       |
-| Gambar   | `title_game`      | `assets/images/title_game.png`     |
-| Gambar   | `panel_skor`      | `assets/images/panel_skor.png`     |
-| SpriteSheet | `sps_mummy`    | `assets/sprite/mummy37x45.png`     |
+| Gambar   | `btn_play`        | `![btn_play](https://github.com/user-attachments/assets/e7385a5a-590d-4fcb-89cd-5c92ab98180a)
+`       |
+| Gambar   | `title_game`      | `![title_game](https://github.com/user-attachments/assets/21bbb090-9414-4b2e-9035-45dc6e78a6ba)
+`     |
+| Gambar   | `panel_skor`      | `![panel_skor](https://github.com/user-attachments/assets/b584956e-2cd0-47ba-ba64-8b3a4973155d)
+`     |
+| SpriteSheet | `sps_mummy`    | `![mummy37x45](https://github.com/user-attachments/assets/51ab6c82-965d-4fd7-bc69-bd126bd2c488)
+`     |
 | Audio    | `snd_ambience`    | `assets/audio/ambience.mp3`        |
 | Audio    | `snd_touch`       | `assets/audio/touch.mp3`           |
 | Audio    | `snd_transisi_menu` | `assets/audio/transisi_menu.mp3` |
@@ -32,4 +36,20 @@ Scene ini merupakan **halaman menu utama** dari game Phaser 3, berfungsi sebagai
 ---
 
 ## 📦 Struktur File
+OCONG/
+├── assets/
+│ ├── audio/
+│ │ ├── ambience.mp3
+│ │ ├── touch.mp3
+│ │ └── transisi_menu.mp3
+│ ├── images/
+│ │ ├── bg_start.png
+│ │ ├── btn_play.png
+│ │ ├── title_game.png
+│ │ └── panel_skor.png
+│ └── sprite/
+│ └── mummy37x45.png
+├── js/
+│ └── sceneMenu.js
+└── index.html
 
